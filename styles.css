@@ -1,0 +1,92 @@
+table {
+    border-collapse:collapse;
+    border-spacing: 0px;
+}
+
+td {
+    padding: 0;
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+}
+
+svg {
+    width: 80px;
+    height: 80px;
+}
+
+rect {
+    width: 80px;
+    height: 80px;
+    stroke: #000;
+    fill: #6D97AB;
+}
+
+.circle {
+    stroke: #000;
+    fill: #ffffff;
+}
+
+.circle-top {
+    stroke: rgba(0, 0, 0, 0);
+    fill: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Comforter', cursive;
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+#table {
+    display: grid;
+    justify-content: center;
+}
+
+.gamer {
+    margin: 7px 10px;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+input[type="text"] {
+    padding: 3px;
+    font-size: 15px;
+    margin: 0.2rem 0.3rem;
+}
+
+input[type="submit"] {
+    height: 2.5rem;
+    width: 22rem;
+    margin: 15px 10px 25px 7px;
+    font-size: 1.5rem;
+    padding: 2px;
+    text-align: center;
+    background-color: rgba(65, 223, 51, 0.507);
+    border-radius: 0.5rem;
+    border: 1px solid rgba(40, 41, 40, 0.596);
+    font-family: 'Comforter', cursive;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    margin: 20px 10px;
+}
+
+.name-game {
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Comforter', cursive;
+}
+
+.gamer-yellow {
+    fill: #efff0e;
+}
+
+.gamer-red {
+    fill: #e91111;
+}

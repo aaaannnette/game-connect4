@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Game - Connect 4</h1>
+        <p> <span class="name-game">Connect 4</span>  - это игра на JavaScript для друх игроков. Задача - выстроить 4 фишки одного цета (красные или жельтый) в ряд по вертикали, по горизонтали или по диагонали раньше другого игрока. 
+            Игроки кликают мышкой по колонке игрового поля для хода. Программа отслеживает победителей и оповещает о победители.</p>
+        <div class="gamer-form">
+            <form>
+                <div class="gamer">
+                    <label for="name_gamer1">Red player</label>
+                    <input type="text" id="name_gamer1" placeholder="Enter your name">
+                </div>
+                <div class="gamer">
+                    <label for="name_gamer2">Yellow player</label>
+                    <input type="text" id="name_gamer2" placeholder="Enter your name">
+                </div>
+                <input type="submit" value="Play" id="but_play">
+            </form>
+        </div>
+    </header>
+    <main>
+        <div id="table">
+            <table></table>
+        </div> 
+
+    </main>
+    
+<script src="./main.js"></script>
+</body>
+</html>

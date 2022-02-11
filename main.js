@@ -1,33 +1,30 @@
 // Создание игрового поля
 
-var table = document.createElement('table'), tr, td, row, cell;
+var table = document.createElement('table'), tr, td, cell, row;
 var gamers = ['gamer-red', 'gamer-yellow'];
 var gamerNum = 0;
 
-                    
 tr = document.createElement('tr');
 for (cell = 0; cell < 7; cell++) {
-    str = '<svg><circle class="circle-top" r="37" cy="40" cx="40"/>';
+    str = '<svg><circle class="circle-top"  r="37" cy="40" cx="41"/>';
     td = document.createElement('td');
     tr.appendChild(td);
     td.innerHTML = str + "</svg>";
 }
 table.appendChild(tr);
-document.getElementById('table').appendChild(table);
-                
-var table = document.createElement('table'), tr, td, row, cell;
+
 for (row = 0; row < 6; row++) {
     tr = document.createElement('tr');
     for (cell = 0; cell < 7; cell++) {
-        str = '<svg> <rect y="0" x="0"/> <circle class="circle" r="37" cy="40" cx="40"/>';
+        str = '<svg> <rect y="0" x="0"/> <circle class="circle" r="37" cy="40" cx="40" />';
         td = document.createElement('td');
         tr.appendChild(td);
         td.innerHTML = str + "</svg>";
-
     }
     table.appendChild(tr);
 }
 document.getElementById('table').appendChild(table);
+
 
 // Проверка на непустое значение имен игроков
 
@@ -67,8 +64,11 @@ function cellClickHandler () {
     }
 }
 
+//отображение сверху фишки при навидении
 
 
 
+
+//выявление победителя
 
 	

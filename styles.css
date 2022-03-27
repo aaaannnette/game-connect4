@@ -1,6 +1,8 @@
-table {
+.table {
     border-collapse:collapse;
     border-spacing: 0px;
+    /* display: none; */
+    
 }
 
 td {
@@ -42,21 +44,10 @@ h1 {
 #table {
     display: grid;
     justify-content: center;
+    pointer-events: none;
 }
 
-.gamer {
-    margin: 7px 10px;
-    font-size: 20px;
-    font-family: 'Work Sans', sans-serif;
-}
-
-input[type="text"] {
-    padding: 3px;
-    font-size: 15px;
-    margin: 0.2rem 0.3rem;
-}
-
-input[type="submit"] {
+input[type="button"] {
     height: 2.5rem;
     width: 22rem;
     margin: 15px 10px 25px 7px;
@@ -85,12 +76,18 @@ p {
 
 .gamer-yellow {
     fill: #efff0e;
+    stroke: #000;
 }
 
 .gamer-red {
     fill: #e91111;
+    stroke: #000;
 }
 
-/* .circle:hover + .circle-top { 
-    fill: #e91111;
-} */
+.red {
+    background-color: rgb(255, 0, 0);
+}
+
+.yellow {
+    background-color: #efff0e;
+}

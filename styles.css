@@ -39,6 +39,7 @@ h1 {
     font-family: 'Comforter', cursive;
     font-size: 60px;
     margin: 10px 0;
+    color: #000;
 }
 
 #table {
@@ -49,8 +50,8 @@ h1 {
 
 input[type="button"] {
     height: 2.5rem;
-    width: 22rem;
-    margin: 15px 10px 25px 7px;
+    width: 34rem;
+    margin: 15px 440px 20px 440px;
     font-size: 1.5rem;
     padding: 2px;
     text-align: center;
@@ -91,3 +92,17 @@ p {
 .yellow {
     background-color: #efff0e;
 }
+
+b {
+    font-size: 1.5rem;
+}
+
+.button:hover {
+    box-shadow: 0 0 40px 40px rgba(51, 223, 166, 0.507) inset;
+    cursor: pointer;
+}
+
+.button:active {
+    box-shadow: 0 0 30px 30px rgba(51, 223, 166, 0.507) ; 
+}
+
